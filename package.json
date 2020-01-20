@@ -1,0 +1,32 @@
+{
+  "name": "@sovpro/split-float",
+  "version": "1.0.0",
+  "description": "Split a floating number into two arrays or two iterable values of single-digit numbers",
+  "main": "split-float.js",
+  "scripts": {
+    "test": "istanbul cover test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovpro/split-float.git"
+  },
+  "keywords": [
+    "split",
+    "float",
+    "number",
+    "array",
+    "digits"
+  ],
+  "author": "sovpro <its.so@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  },
+  "dependencies": {
+    "@sovpro/split-num": "^1.0.5",
+    "@sovpro/unfloat": "^1.0.0"
+  }
+}
