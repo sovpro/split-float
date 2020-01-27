@@ -1,6 +1,6 @@
 {
   "name": "@sovpro/split-float",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split a floating number into two arrays or two iterable values of single-digit numbers",
   "main": "split-float.js",
   "scripts": {

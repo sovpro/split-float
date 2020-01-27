@@ -24,7 +24,7 @@ function splitLazy (val) {
 function getFixedAndFloating (val) {
   const num = Math.abs (val)
   return [
-    Math.floor (num) ,
+    Math.trunc (num) ,
     unfloat (num)
   ]
 }
